@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Completion Certificate</title>
+    <style>
+        /* Add some styles for the certificate */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .certificate {
+            border: 10px solid orange; /* Add an additional 5px solid orange border */
+            padding: 140px;
+            width: 60%;
+            margin: 20px auto 50px;
+            position: relative;
+            box-sizing: border-box; /* Include padding and border in the total width and height */
+        }
+
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            max-width: 100px; /* Set the maximum width for the logo */
+            height: auto; /* Maintain the aspect ratio */
+            margin-bottom: 10px; /* Add some space below the logo */
+            display: inline-block;
+        }
+
+
+        .course {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: darkblue; /* Set dark blue color for course name */
+            font-weight: bold; /* Make course name bold */
+        }
+        .student {
+            font-size: 20px;
+            /* Highlight only the name "Jayanth" in red */
+            color: black;
+        }
+        .date-signature {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between date and signature */
+            margin-top: 20px; /* Add some space between sections */
+        }
+        .date, .signature {
+            width: 45%; /* Set the width for date and signature */
+            /* Add a border between date and signature */
+            padding-top: 10px; /* Add some space above text */
+            margin-right: 50px;
+            color: black; /* Set date and signature color to black */
+        }
+        .certificate img {
+            max-width: 100px; /* Set the maximum width for the logo */
+            height: auto; /* Maintain the aspect ratio */
+            margin-bottom: 10px; /* Add some space below the logo */
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <!-- Use the correct path for the image -->
+        <img class="logo" src="static/logo.png" alt="Logo">
+
+
+
+        <h2>Certificate of Completion</h2>
+
+
+        <div class="student">
+            This is to certify that <br/><br/>
+            <span style="color: red;">Jayanth</span> <br/><br/> <!-- Highlight only the name "Jayanth" in red -->
+            has successfully completed <br/><br/>
+            <span class="course">Full Stack Developer</span> <!-- Set dark blue color for course name -->
+        </div>
+        <br/>
+        <br/>
+        <br/>
+
+
+        <!-- Add date and signature -->
+        <div class="date-signature">
+            <div class="date">
+                Date: <!-- Replace with the actual date -->
+            </div>
+            <div class="signature">
+                Signature: <!-- Add a line for a signature -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

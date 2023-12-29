@@ -1,0 +1,43 @@
+.finalhomebody {
+    position: relative;
+    background-image: linear-gradient(50deg, #60c4a2, #BBDDBB);
+    height: auto; /* Set to auto to allow content to determine the height */
+    margin-top: -15px;
+    margin-bottom: 20px;
+    
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust as needed, 80% is just an example */
+    margin: 0 auto; /* Center the container */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; 
+    width:1500px;
+    margin-right:90px;/* Allow items to wrap to the next line if needed */
+  }
+  
+  .body1 {
+    padding-left: 20px;
+    flex: 1; /* Take up available space */
+  }
+  
+  .body2 {
+    margin-left: 20px; /* Add some space between sections */
+    flex: 1; /* Take up available space */
+  }
+  
+  .body3 {
+    margin-left: 20px; /* Add some space between sections */
+    flex: 1; /* Take up available space */
+  }
+  
+  .body4 {
+    margin-left: 20px; /* Add some space between sections */
+    flex: 1; /* Take up available space */
+  }
+  
+  /* Adjustments to individual body styles as needed */
+  .body2 p,
+  .body3 p,
+  .body4 p {
+    margin-top: 10px; /* Add space between paragraphs */
+  }
+  

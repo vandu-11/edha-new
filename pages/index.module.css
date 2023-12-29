@@ -1,0 +1,67 @@
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 1500px;
+  margin-top: -30px;
+  margin-left: 200px;
+}
+
+.nav-list li {
+  margin-right: 40px; /* Increase the margin to increase spacing */
+  font-size: 100px; /* Increase the font size */
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+
+}
+
+ 
+ 
+   
+ 
+ 
+ 
+  .header-content {
+  margin-top: 30px;
+  background-image: url('/new.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  width: 1460px;
+  min-height: 500px;
+   /* Use min-height to ensure content covers the full height */
+}
+
+.divider {
+  background-color: rgba(228, 158, 52, 0.669);
+  padding: 20px;
+  text-align: center;
+  color: rgb(10, 9, 9);
+  font-weight: bold;
+}
+
+.quotes {
+  font-size: 25px;
+  font-style: italic;
+}
+.contactButton {
+  background-color: rgb(30, 140, 107);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.contactButton:hover {
+  background-color: rgb(20, 120, 87); /* Darker shade on hover */
+}
+

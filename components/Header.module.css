@@ -1,0 +1,105 @@
+/* Common styles for both laptop and mobile views */
+.p1 {
+  background-color: rgba(228, 158, 52, 0.669);
+  height: 10px;
+  align-items: center;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+  width: 1500px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+  background-color: rgb(30, 140, 107);
+  margin-top: -10px;
+  padding-top: 2px;
+  width: 1500px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.icons {
+  float: left;
+}
+
+.icons i {
+  padding: 20px;
+}
+.course{
+  background-color: azure;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.part1 p {
+  display: inline;
+  padding: 0 20px; /* Adjust padding as needed */
+  height: 40px;
+  font-size: 20px;
+}
+
+/* Course Dropdown Styles */
+.course-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.course-dropdown select {
+  width: 200px; /* Adjust the width as needed */
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.course-dropdown:after {
+  content: '\25BC'; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: black;
+}
+
+/* Media query for laptop view */
+@media (min-width: 768px) {
+  .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(228, 158, 52, 0.669);
+    height: 100px;
+    width: 1500px;
+  }
+
+  /* Other laptop-specific styles remain the same */
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .part1 {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 158, 52, 0.669);
+    height: auto;
+    width: 1500px;
+    padding: -20px;
+  }
+
+  /* Other mobile-specific styles remain the same */
+}
